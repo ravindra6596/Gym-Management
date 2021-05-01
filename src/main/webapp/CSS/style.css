@@ -1,0 +1,104 @@
+.deletePost{
+
+color:#ff0000;
+}
+.deletePost:hover{
+color: #ff0000;
+}
+.updatePost{
+/* padding-left: 10px; */
+color: #008000;
+}
+.updatePost:hover{
+color: #008000;
+}
+.singlePost{
+color:#0000ff;
+}
+.singlePost:hover{
+color:#0000ff;
+}
+.login{
+background: linear-gradient(to bottom left,#8974cf 20%, #33ccff 50%, #3366ff 100%);
+}
+.login-btn{
+background: #007bff;
+color: #fff;
+}
+.login-btn:hover,forgot-pass:hover{
+color: #fff;
+/* background: linear-gradient(to top left, #33ccff 50%, #3366ff 100%); */
+background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%, #33ccff 50%, #3366ff 100%);
+animation:slidebg 5s linear infinite;
+}
+@keyframes slidebg {
+to {
+background-position:20vw;
+}
+}
+
+.follow{
+margin-top: 40px;
+}
+
+.follow a{
+color: black;
+padding: 8px 16px;
+text-decoration: none;
+}
+.view-image{
+width: 100px;
+border-radius: 50%;
+
+}
+.display-image{
+border-radius: 50%;
+border: 1px solid black;
+width:150px;
+height:150px;
+}
+.img-add{
+color: red;
+}
+.img-view{
+border-radius: 50%;
+border: 1px solid black;
+width:100px;
+height:103px;
+}
+.tbl1{
+height: 350px;
+}
+.admin-img{
+border-radius: 50%;
+border: 1px solid white;
+width:40px;
+height:40px;
+}
+.b2b-logo{
+width: 230px;
+height: 50px;
+border-radius: 30px;
+border: 1px solid gray;
+}
+.response {
+padding: 10px;
+margin-top: 10px;
+border-radius: 2px;
+}
+.error {
+background: #ff0000;
+border: #ff0000 1px solid;
+}
+.login-img{
+width: 320px;
+height: 100px;
+background-image: linear-gradient(to top left, #33ccff 50%, #3366ff 100%);
+border-radius: 30px;
+}
+.image-div{
+float:right;
+margin-right:20px;
+max-width: 50%;
+max-height: 20%;
+}
